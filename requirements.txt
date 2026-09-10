@@ -1,0 +1,37 @@
+# ---- Backend core ----
+fastapi
+uvicorn[standard]
+python-multipart
+sqlalchemy
+psycopg2-binary
+alembic
+celery
+redis
+python-jose[cryptography]
+passlib[bcrypt]
+pydantic
+pydantic-settings
+python-dotenv
+
+# ---- CV / OCR / Detection ----
+opencv-python-headless
+numpy
+paddleocr
+paddlepaddle
+craft-text-detector
+
+# ---- Report generation ----
+reportlab
+
+# ---- RAG stack ----
+chromadb
+sentence-transformers
+rank-bm25
+langchain
+langchain-community
+pypdf
+pdfplumber
+
+# ---- Testing ----
+pytest
+httpx
